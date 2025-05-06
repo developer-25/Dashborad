@@ -1,154 +1,64 @@
 🚀 User Insights Dashboard
-A visually appealing and fully responsive User Insights Dashboard built with React, React Table, and Recharts. It displays tabular user data along with beautiful charts for data analysis.
+This is a modern and interactive React-based dashboard that displays user data in a table along with insightful visualizations using Recharts. It features global search, pagination, sorting, and charts like Bar, Pie, Line, and Area charts.
 
+✨ Features
+🔍 Global Search — Filter users with ease.
 
+🔢 Pagination — Navigate through pages of user data.
 
-📦 Features
+🔼 Sortable Columns — Click on column headers to sort.
 
-🔍 Global search to filter users.
+📊 Bar Chart — Visualize total revenue per user.
 
-📊 Bar, Pie, Line, and Area charts for better data visualization.
+🧁 Pie Chart — View distribution of user roles.
 
-📅 Pagination with page numbers.
+📈 Line Chart — Track revenue growth over time.
 
-⏫ Sortable table columns.
+🌱 Area Chart — See user joins over time.
 
-🎨 Gradient background and modern UI with Tailwind CSS.
+📦 Technologies Used
+React (with Hooks)
 
-⚡ Fully responsive and mobile-friendly.
+react-table — For creating dynamic, sortable, paginated tables.
 
+recharts — For data visualizations (charts and graphs).
 
+Tailwind CSS — For modern, responsive styling.
 
+🛠️ Getting Started
+Prerequisites
+Node.js & npm installed
 
+Installation
+Clone the repository:
 
-🛠️ Tech Stack
-
-React – Frontend library
-
-React Table – For dynamic and interactive tables
-
-Recharts – For drawing charts
-
-Tailwind CSS – For styling
-
-JavaScript (ES6+)
-
-
-
-
-
-📁 Project Structure
 bash
 Copy
 Edit
-.
-├── App.css              # Tailwind and custom styles
-├── App.js               # Main component rendering the dashboard
-├── index.js             # Entry point
-├── README.md            # Project documentation
+git clone https://github.com/your-username/user-insights-dashboard.git
+cd user-insights-dashboard
+Install dependencies:
 
-
-
-
-🚀 Getting Started
-
-1. Clone the repository
-bash
-Copy
-Edit
-git clone https://github.com/your-username/user-dashboard.git
-cd user-dashboard
-
-2. Install dependencies
 bash
 Copy
 Edit
 npm install
+Start the development server:
 
-3. Start the development server
 bash
 Copy
 Edit
 npm start
-This will open the project in your browser at http://localhost:3000.
+Open https://6819a59809d045bf5d912e36--jazzy-tiramisu-ab2a03.netlify.app/ in your browser.
+
+📁 Project Structure
+App.js — Main component that renders the table and charts.
+
+App.css — Custom styles using Tailwind CSS.
+
+mockData — Sample user data (name, email, role, join date, revenue).
 
 
-
-
-
-📊 Data Explanation
-The dashboard uses mock data of 60 users with the following fields:
-
-Name – Random user names (e.g., User 1)
-
-Email – Email IDs like user1@example.com
-
-Role – Can be "Admin", "User", or "Moderator"
-
-Join Date – Randomly generated date (YYYY-MM-DD format)
-
-Revenue – Random number between $500 and $2500
-
-
-
-
-
-📈 Charts Overview
-Bar Chart – Shows total revenue of all users.
-
-Pie Chart – Shows the distribution of roles (Admin/User/Moderator).
-
-Line Chart – Shows how revenue varies over time (by join date).
-
-Area Chart – Highlights number of users joining over time (based on revenue for visual weight).
-
-
-
-
-🧠 How It Works
-React Table
-The table is created using useTable from react-table.
-
-It uses pagination, sorting, and global filtering.
-
-Recharts
-Uses BarChart, PieChart, LineChart, and AreaChart from recharts to display user data in a visually pleasing way.
-
-Tailwind CSS
-Used for all styling, layout, and responsive design.
-
-Gradient backgrounds, rounded corners, and hover effects give the dashboard a modern feel.
-
-
-
-
-
-🧪 Example Usage
-Once you run the project:
-
-Search for users by name/email/role using the search bar.
-
-Click on table headers to sort by that column.
-
-Use page numbers to browse through paginated data.
-
-Scroll down to see different types of charts summarizing the user data.
-
-
-
-
-📌 Customization Tips
-To load real data, replace the mockData array with API data.
-
-To change colors, update Tailwind classes or fill props in Recharts components.
-
-To add more filters or columns, modify the columns array.
 
 📄 License
-This project is open-source and free to use.
-
-🙋‍♂️ Author
-Kalash Mantri
-
-
-Email: kalashmantri2002@gmail.com
+This project is open-source and free to use under the MIT License.
