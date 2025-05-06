@@ -35,7 +35,7 @@ Clone the repository:
 bash
 Copy
 Edit
-git clone https://github.com/your-username/user-insights-dashboard.git
+git clone https://github.com/developer-25/Dashborad.git
 cd user-insights-dashboard
 Install dependencies:
 
