@@ -1,71 +1,154 @@
-# Getting Started with Create React App
+🚀 User Insights Dashboard
+A visually appealing and fully responsive User Insights Dashboard built with React, React Table, and Recharts. It displays tabular user data along with beautiful charts for data analysis.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+📦 Features
 
-### `npm start`
+🔍 Global search to filter users.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+📊 Bar, Pie, Line, and Area charts for better data visualization.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+📅 Pagination with page numbers.
 
-### `npm test`
+⏫ Sortable table columns.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🎨 Gradient background and modern UI with Tailwind CSS.
 
-### `npm run build`
+⚡ Fully responsive and mobile-friendly.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+🛠️ Tech Stack
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+React – Frontend library
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+React Table – For dynamic and interactive tables
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Recharts – For drawing charts
 
-## Learn More
+Tailwind CSS – For styling
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+JavaScript (ES6+)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+📁 Project Structure
+bash
+Copy
+Edit
+.
+├── App.css              # Tailwind and custom styles
+├── App.js               # Main component rendering the dashboard
+├── index.js             # Entry point
+├── README.md            # Project documentation
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+🚀 Getting Started
 
-### Deployment
+1. Clone the repository
+bash
+Copy
+Edit
+git clone https://github.com/your-username/user-dashboard.git
+cd user-dashboard
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+2. Install dependencies
+bash
+Copy
+Edit
+npm install
 
-### `npm run build` fails to minify
+3. Start the development server
+bash
+Copy
+Edit
+npm start
+This will open the project in your browser at http://localhost:3000.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# Dashborad
+
+
+
+
+📊 Data Explanation
+The dashboard uses mock data of 60 users with the following fields:
+
+Name – Random user names (e.g., User 1)
+
+Email – Email IDs like user1@example.com
+
+Role – Can be "Admin", "User", or "Moderator"
+
+Join Date – Randomly generated date (YYYY-MM-DD format)
+
+Revenue – Random number between $500 and $2500
+
+
+
+
+
+📈 Charts Overview
+Bar Chart – Shows total revenue of all users.
+
+Pie Chart – Shows the distribution of roles (Admin/User/Moderator).
+
+Line Chart – Shows how revenue varies over time (by join date).
+
+Area Chart – Highlights number of users joining over time (based on revenue for visual weight).
+
+
+
+
+🧠 How It Works
+React Table
+The table is created using useTable from react-table.
+
+It uses pagination, sorting, and global filtering.
+
+Recharts
+Uses BarChart, PieChart, LineChart, and AreaChart from recharts to display user data in a visually pleasing way.
+
+Tailwind CSS
+Used for all styling, layout, and responsive design.
+
+Gradient backgrounds, rounded corners, and hover effects give the dashboard a modern feel.
+
+
+
+
+
+🧪 Example Usage
+Once you run the project:
+
+Search for users by name/email/role using the search bar.
+
+Click on table headers to sort by that column.
+
+Use page numbers to browse through paginated data.
+
+Scroll down to see different types of charts summarizing the user data.
+
+
+
+
+📌 Customization Tips
+To load real data, replace the mockData array with API data.
+
+To change colors, update Tailwind classes or fill props in Recharts components.
+
+To add more filters or columns, modify the columns array.
+
+📄 License
+This project is open-source and free to use.
+
+🙋‍♂️ Author
+Kalash Mantri
+
+
+Email: kalashmantri2002@gmail.com
